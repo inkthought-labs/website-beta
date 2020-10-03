@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
+body, html {
+  font-family: 'Ubuntu Mono', monospace;
+  background-color:#1C1C1C;
+  color:#fff;
+  margin:0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color:#C45A5A !important;
+  text-decoration:none;
+}
+
+h1 {
+  font-size:60px;
+}
+
+.bg-dark,.navbar-dark {
+  background:#1C1C1C !important;
+  height:12%;
+}
+
+.btn-dark {
+  background: rgba(41,41,41,0.8);
+}
+
+.card-img-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+  height: 225% !important;
+  /* height: 250% !important; :Mobile:*/
+}
+
+.overlay-long {
+  height: 275% !important;
+  /* height: 325% !important; :Mobile:*/ 
+}
+
+.card {
+  background-color:#292929 !important;
+}
+
+.container {
+  margin-top:20px;
+  margin-bottom:60px;
+}
+
+.jumbotron {
+  border-radius:0px !important;
+  background: url("./imgs/bg.png") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:250px;
+  border-bottom:3px solid #92517F;
+}
+
+::selection {
+  background:#000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #92517F;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
